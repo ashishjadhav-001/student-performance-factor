@@ -11,6 +11,8 @@ The API allows users to send student attributes and receive a predicted exam sco
 
 # 📊 Dataset
 
+The dataset is get from **Kaggle**.
+
 Dataset: **Student Performance Factors**
 
 Features used include:
@@ -78,15 +80,15 @@ Models were evaluated using:
 
 | Model             | R² Score   |
 | ----------------- | ---------- |
-| Linear Regression | **0.7696** |
-| Gradient Boosting | 0.7303     |
-| Random Forest     | 0.6471     |
-| Decision Tree     | 0.5537     |
+| Linear Regression | **0.8249** |
+| Gradient Boosting | 0.7778     |
+| Random Forest     | 0.7000     |
+| Decision Tree     | 0.5694     |
 
 **Final Model Selected:**
 Linear Regression (Best performance)
 
-Cross Validation Score:
+Cross Validation Score:[0.62555872 0.74476619 0.70883637 0.73323805 0.83998031]
 
 ```
 Average R² ≈ 0.726
@@ -174,7 +176,7 @@ student-performance-prediction
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/yourusername/student-performance-prediction.git
+git clone https://github.com/ashishjadhav-001/student-performance-factor.git
 ```
 
 ### 2️⃣ Install dependencies
@@ -226,4 +228,4 @@ uvicorn app:app --host 0.0.0.0 --port 10000
 
 **Ashish Jadhav**
 
- Data Science
+ Data Scientist
